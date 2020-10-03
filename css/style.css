@@ -1,0 +1,54 @@
+body {
+  background: #ff4500;
+}
+
+header {
+  background: #1c1c1c;
+    width: 100%;
+    height: auto;
+}
+header nav section {
+  width: 100px;
+  height: 60px;
+    float: left;
+  margin-left: 20px;
+  background: lightblue;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  header nav section {
+    width: 100%;
+  }
+}
+
+.medium {
+  width: 100%;
+  height: 200px;
+  background: green;
+}
+
+.big-div {
+  width: 100%;
+  height: 100px;
+  background-color: yellow;
+  margin-bottom: 100px;
+}
+.big-div:hover {
+  background: green;
+}
+
+.small-div {
+  width: 100%;
+  height: 200px;
+  background-color: blue;
+  margin-bottom: 100px;
+}
+.small-div:hover {
+  background: #1c1c1c;
+}
+
+.grid-container {
+  width: 100%;
+  height: auto;
+  background: #ffff8f;
+}

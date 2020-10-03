@@ -1,0 +1,41 @@
+@import "mixins" ;
+@import "variables";
+body{
+    background: $body_color;
+}
+
+header{
+    background: $header_color;
+    nav{
+        display: flex;
+        justify-content: center;
+        section{
+            width: 100px;
+            height: 60px;
+            margin-left: 20px;
+            background: lightblue;
+            text-align: center;    
+            @include mq(1000px) {
+                width: 100%;
+        }
+        } 
+        
+    }
+}
+.medium{
+    width: 100%;
+    height: 200px;
+    background:green;
+}
+.big-div{
+    @include big;
+}
+.small-div{
+    @include small;
+}
+.grid-container{
+    width: 100%;
+    height: auto;
+    background: #ffff8f;
+    
+}
